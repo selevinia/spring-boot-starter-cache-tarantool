@@ -36,6 +36,7 @@ It's possible to override the default properties listed here below.
 | selevinia.cache.tarantool.cache-name-prefix                       |  | Cache name prefix |
 | selevinia.cache.tarantool.cache-null-values                       |  | Allow caching null values |
 | selevinia.cache.tarantool.time-to-live                            |  | Entry expiration. By default, the entries never expire. If a duration suffix is not specified, milliseconds will be used |
+| selevinia.cache.tarantool.enable-statistics                       | false | Enable cache statistics |
 | spring.data.tarantool.nodes                                       | localhost:3301 | Comma-separated list of Tarantool nodes (host:port) to connect to |
 | spring.data.tarantool.user-name                                   | guest | Tarantool user name |
 | spring.data.tarantool.password                                    |  | Tarantool user password |
